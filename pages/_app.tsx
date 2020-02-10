@@ -23,6 +23,7 @@ const App = ({ Component, pageProps }) => {
                 <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
                 <link rel="apple-touch-icon" href="/appicon.png" />
                 <link rel="apple-touch-startup-image" href="/appicon.png" />
+                <link rel="icon" type="image/png" href="/appicon.png" />
             </Head>
             <Page>
                 <PageTransition timeout={150} classNames="AppTransition">
