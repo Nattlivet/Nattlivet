@@ -1,0 +1,19 @@
+@import '../../_base.scss';
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #000;
+
+    .Footer-Content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: $page-max-width;
+        height: 100%;
+        padding: 1rem;
+    }
+}
