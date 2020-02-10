@@ -4455,10 +4455,10 @@ next-offline@^5.0.0:
     fs-extra "~8.1.0"
     workbox-webpack-plugin "^5.0.0"
 
-next-page-transitions@^1.0.0-beta.2:
-  version "1.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/next-page-transitions/-/next-page-transitions-1.0.0-beta.2.tgz#7dc305ba956b5e5e4d80ecd58ccaf01bc65fddc0"
-  integrity sha512-j5BIwytcZV3N90brzHRsjOw7AOMZ4JvgK8aeSjanFIEt+tLYoF1LI/LuxlS+B2EQOXSBgxHbxBbUmPZPQEL4Xw==
+next-page-transitions@^1.0.0-canary:
+  version "1.0.0-canary.1"
+  resolved "https://registry.yarnpkg.com/next-page-transitions/-/next-page-transitions-1.0.0-canary.1.tgz#f324fa9f49fdc91c8829af433f192fd025d43501"
+  integrity sha512-TtEkYbv89+ZszRMVhtG53X57j63G4/tIBj9zdznOiCIq5LMEfTC0eVjb6HIBMj5w95S5JMFFHKu6YqtLxqBBKw==
   dependencies:
     prop-types "^15.6.1"
     react-transition-group "^2.3.1"
