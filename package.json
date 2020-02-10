@@ -19,7 +19,7 @@
     "@zeit/next-sass": "^1.0.1",
     "next": "^9.2.1",
     "next-offline": "^5.0.0",
-    "next-page-transitions": "^1.0.0-beta.2",
+    "next-page-transitions": "^1.0.0-canary",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-context-hook": "^1.2.0",
@@ -28,7 +28,7 @@
     "typescript": "^3.7.5"
   },
   "devDependencies": {
-    "@types/node": "^13.7.0",
-    "@types/react": "^16.9.19"
+    "@types/node": "13.7.0",
+    "@types/react": "16.9.19"
   }
 }
