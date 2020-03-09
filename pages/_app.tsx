@@ -24,6 +24,8 @@ const App = ({ Component, pageProps }) => {
                 <link rel="apple-touch-icon" href="/appicon.png" />
                 <link rel="apple-touch-startup-image" href="/appicon.png" />
                 <link rel="icon" type="image/png" href="/appicon.png" />
+                
+                <script defer src="https://insights.revoff.xyz/script.js" />
             </Head>
             <Page>
                 <PageTransition timeout={150} classNames="AppTransition">
