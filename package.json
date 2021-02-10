@@ -20,7 +20,7 @@
     "next": "^9.2.1",
     "next-offline": "^5.0.0",
     "next-page-transitions": "^1.0.0-canary",
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "react": "^16.12.0",
     "react-context-hook": "^1.2.0",
     "react-dom": "^16.12.0",
