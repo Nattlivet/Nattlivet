@@ -1123,6 +1123,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.9.2":
+  version "7.13.17"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.17.tgz#8966d1fc9593bf848602f0662d6b4d0069e3a7ec"
+  integrity sha512-NCdgJEelPTSh+FEFylhnP1ylq848l1z9t9N0j1Lfbcw0+KXGjsTvUmkxy+voLLXB5SOKMbLLx4jxYliGrYQseA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.7.0", "@babel/template@^7.8.3", "@babel/template@^7.8.6":
   version "7.8.6"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.8.6.tgz#86b22af15f828dfb086474f964dcc3e39c43ce2b"
@@ -6217,10 +6224,12 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-context-hook@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-context-hook/-/react-context-hook-1.2.0.tgz#0494f2bda5633d7df7ed5b49879322436022384d"
-  integrity sha512-09gP0CvFoICHSW1sKglZPJA1YfEoKRmgHBJzTfx/rD003I+0GbqMT1PgDMeXokfDfDLcIzNmqPAgJX0mbcmcOQ==
+react-context-hook@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-context-hook/-/react-context-hook-3.0.0.tgz#ef9a2fefa71fd33db89e6e54751bd3d651a94132"
+  integrity sha512-vaPsykR2sA80vTmZGa089gFIwP+gjYjRMkQEHnqyG6yftrRXD03rO9Yp7NAPyWihQuZaCajQF9xAKKkJMzcXcA==
+  dependencies:
+    redux "^4.0.5"
 
 react-dom@^16.12.0:
   version "16.12.0"
@@ -6350,6 +6359,13 @@ redent@^1.0.0:
   dependencies:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
+
+redux@^4.0.5:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
+  integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
 
 reflect.ownkeys@^0.2.0:
   version "0.2.0"
